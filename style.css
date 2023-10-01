@@ -1,0 +1,162 @@
+/* Standard Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Universal Styles */
+body {
+    background-color: black;
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#banner-container {
+    display: flex; 
+
+    color: seashell;
+    height: 69px;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+#logo {
+
+    max-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.navigation-items {
+    display: inline-flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: underline;
+    color: seashell;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#mission-container {
+    display: flex;
+    justify-content: center;
+}
+
+#mission-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    width: 1200px;
+    background-color: purple;
+    background-image: url("images/img-mission-background.webp");
+    align-items: center;
+}
+
+.mission-text {
+    display: flex;
+    width: 1200px;
+    justify-content: center;
+    background-color: black;
+    padding: 10px 0px;
+
+}
+
+#tea-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.tea-title {
+    display: flex;
+    align-self: center;
+}
+
+.tea-blocks-container {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.tea-blocks {
+    display: flex;
+    width: 300px;
+}
+
+.tea-blocks figure img {
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
+
+
+}
+
+figcaption {
+    padding-bottom: 30px;
+}
+
+#location-container {
+    display: flex;
+    justify-content: center;
+}
+
+#location-image {
+    display: flex;
+    gap: 40px;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    background-color: purple;
+    background-image: url("images/img-locations-background.webp");
+    width: 1200px;
+    height: 500px;
+}
+
+#location-title {
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+.location-blocks {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.footer {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
